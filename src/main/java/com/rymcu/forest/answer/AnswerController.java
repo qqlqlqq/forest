@@ -20,7 +20,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/v1/answer")
 public class AnswerController {
-
     @Value("${resource.answer-api-url}")
     private String ANSWER_API_URL;
 
